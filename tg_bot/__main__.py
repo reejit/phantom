@@ -36,18 +36,10 @@ PM_START_TEXT = """
 ╱▔▔▔▔┊┊┊┊▔▔▔▔╲
 HOI    {}, MY NAME IS {} !
 
-I AM A GROUP MANAGER BOT MAINTAINED BY 
+I am an Anime themed group management bot.
+You can find my list of available commands with /help.
 
-[THIS LEGEND](tg://user?id={}).
-
-HIT HELP FOR COMMANDS  /help
-
-I AM COMPLETELY OPEN SOURCE
-
-MY SOURCE CODE IS AVAILABLE TO YOU
-
-[HERE](https://github.com/leobrownlee/phantom)
-
+The support group chat is at @grouphelpsupportgroup.
 """
 
 HELP_STRINGS = """
@@ -161,7 +153,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
 
     else:
-        update.effective_message.reply_text("Yo, whadup?🤧")
+        update.effective_message.reply_text("I Am Alive!!!")
 
 
 def send_start(bot, update):
