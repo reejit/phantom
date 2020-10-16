@@ -39,7 +39,7 @@ HOI    {}, MY NAME IS {} !
 I am an Anime themed group management bot.
 You can find my list of available commands with /help.
 
-The support group chat is at @grouphelpsupportgroup.
+The support group chat is at [here](t.me/checkedplugins)
 """
 
 HELP_STRINGS = """
